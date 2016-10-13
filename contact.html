@@ -1,25 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <header>
     <meta charset="utf-8">
+    <title>Contact</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
-    <title>Contact</title>
-  </head>
-  <body>
-    <nav>
-      <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./about.html">About</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-      </ul>
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab" rel="stylesheet">
+
+    <nav class="navigation-bar">
+      <img class="logo" src="./images/logo.svg">
+      <a href="./contact.html">CONTACT US</a>
+      <a href="./about.html">ABOUT</a>
+
     </nav>
+  </header>
+  <body>
 
-    <div class="container">
-      <h1>Contact</h1>
-
+    <div class="contactIntro">
+      <h1>HOLD OUT A BIT LONGER</h1>
+      <p>Fill out the form below and we will send you an email with a simple liability
+         form for you to sign. After that, we shipp you your free can of Kool-Aid,
+         satisfaction guaranteed. We've never heard abad word from our wonderful
+         customers, because they already moved on to the afterlife!
+      </p>
+    </div>
+    <div class="contactForm">
+      <input placeholder="First Name" type="text" class="input" id="firstName"/>
+      <input placeholder="Last Name" type="text" class="input" id="lastName"/>
+      <input placeholder="Email Address" type="email" class="input" id="email"/>
+      <input placeholder="Confirm Email Address" type="email" class="input" id="email2"/>
+      <a href="./contact.html"><button>BRING ON THE AFTERLIFE </button></a>
+    </div>
+    
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script type="text/javascript" src="./js/contact.js"></script>
   </body>
+  <footer>
+    <nav class="footer-top">
+      <a href="./index.html">HOME</a>
+      <a href="./about.html">ABOUT US</a>
+      <a href="./contact.html">CONTACT US</a>
+      <img class="social" src="./images/twitter.svg">
+      <img class="social" src="./images/facebook.svg">
+      <img class="social" src="./images/instagram.svg">
+
+    </nav>
+    <nav class="footer-bottom">
+      <p class="copyright">	&copy; ShaedyCult 2016</p>
+    </nav>
+  </footer>
 </html>

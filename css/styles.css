@@ -5,21 +5,10 @@ h1,
 h2,
 p,
 ul,
-section {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-}
+
 
 html {
   line-height: 1;
-}
-
-ul {
-  list-style: none;
 }
 
 header{
@@ -48,7 +37,7 @@ header{
     height: 37px;
     width: auto;
     float: right;
-    font-family: "Railway",sans-serif;
+    font-family: "Raleway",sans-serif;
     font-weight: 800;
     font-size: 12;
     color: #B1AEDE;
@@ -64,7 +53,7 @@ header{
 
 body {
   background: #324C79;
-  font-family: "Railway",sans-serif;
+  font-family: "Raleway",sans-serif;
   font-size: 14px;
   margin-left: 35px;
 }
@@ -86,7 +75,7 @@ body {
 }
 
 .right > h1 {
-  font-family: "Railway",sans-serif;
+  font-family: "Raleway",sans-serif;
   font-weight: 800;
   font-size: 52px;
   line-height: 56px;
@@ -102,12 +91,12 @@ body {
   margin-top: 35px;
   margin-bottom: 120px;
 }
-.right > button {
+.right > a > button {
   height: 80px;
   padding: 30px 45px 30px 45px;
   border-radius: 40px;
   box-shadow: 0 0 30px rgba(255,142,216,0.75);
-  font-family: "Railway",sans-serif;
+  font-family: "Raleway",sans-serif;
   background-color: #FF8ED8;
   font-weight: 800;
   font-size: 24px;
@@ -115,17 +104,216 @@ body {
   line-height: 0px;
   color: #ffffff;
 }
-.right > button:hover{
+.right > a > button:hover{
   box-shadow: 0 0 30px rgba(64, 61, 101, 0.75);
   color: #403D65;
 }
+
+.about{
+  width: 750px;
+  padding: 80px 80px 80px 80px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 90px;
+  background-color: #ffffff;
+  box-shadow: 0 0 100px rgba(255, 255, 255, .75);
+}
+.about > h1{
+  font-family: "Raleway",sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: #FF8ED8;
+  margin-bottom: 35px;
+}
+.about > p{
+  font-family: "Roboto Slab",serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #5C5C5C;
+  max-width: 480px;
+}
+
+.jebediah{
+  width: 750px;
+  padding: 80px 80px 80px 180px;
+  position: relative;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 90px;
+  background-color: #ffffff;
+  box-shadow: 0 0 100px rgba(255, 255, 255, .75);
+}
+.jebediah > img{
+  width: 208px;
+  position: absolute;
+  top: -40px;
+  left: -70px;
+  border: 20px solid #ffffff;
+  border-radius: 50%;
+}
+.jebediah > h1{
+  font-family: "Raleway",sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.jebediah #name{
+  color: #5C5C5C;
+  display: inline;
+}
+.jebediah #title{
+  color: #FF8ED8;
+  display: inline;
+}
+.jebediah > p{
+  font-family: "Roboto Slab",serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #5C5C5C;
+  max-width: 480px;
+}
+
+.jezebelle{
+  width: 750px;
+  padding: 80px 180px 80px 80px;
+  position: relative;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 195px;
+  background-color: #ffffff;
+  box-shadow: 0 0 100px rgba(255, 255, 255, .75);
+  text-align: right;
+}
+.jezebelle > img{
+  width: 208px;
+  position: absolute;
+  top: -40px;
+  right: -70px;
+  border: 20px solid #ffffff;
+  border-radius: 50%;
+}
+.jezebelle > h1{
+  font-family: "Raleway",sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.jezebelle #name{
+  color: #5C5C5C;
+  display: inline;
+}
+.jezebelle #title{
+  color: #FF8ED8;
+  display: inline;
+}
+.jezebelle > p{
+  font-family: "Roboto Slab",serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #5C5C5C;
+  max-width: 480px;
+}
+
+.contactIntro{
+  width: 750px;
+  padding: 80px 80px 80px 80px;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 90px;
+  background-color: #ffffff;
+  box-shadow: 0 0 100px rgba(255, 255, 255, .75);
+}
+.contactIntro > h1{
+  font-family: "Raleway",sans-serif;
+  font-weight: 800;
+  font-size: 24px;
+  color: #FF8ED8;
+  margin-bottom: 35px;
+}
+.contactIntro > p{
+  font-family: "Roboto Slab",serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #5C5C5C;
+  max-width: 480px;
+}
+.contactForm{
+  width: 500px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+.contactForm > input{
+  outline: none;
+  border: none;
+  border-color: transparent;
+  border-bottom: 2px solid #ffffff;
+  height: 35px;
+  background: none;
+  font-family: "Roboto Slab",serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  padding-left: 0;
+  margin-bottom: 25px;
+}
+input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #B1AEDE;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #B1AEDE;
+   opacity:  1;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #B1AEDE;
+   opacity:  1;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #B1AEDE;
+}
+.contactForm #firstName{
+  width: 45%;
+  float: left;
+}
+.contactForm #lastName{
+  width: 45%;
+  float: right;
+}
+.contactForm #email{
+  width: 100%;
+}
+.contactForm #email2{
+  width: 100%;
+}
+.contactForm > a > button{
+  height: 60px;
+  padding: 20px 45px;
+  border-radius: 30px;
+  box-shadow: 0 0 30px rgba(255, 142, 216, 0.75);
+  background: #FF8ED8;
+  font-family: "Raleway",sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 200px;
+  text-align: center;
+}
+.contactForm > a > button:hover{
+  box-shadow: 0 0 30px rgba(64, 61, 101, 0.75);
+  color: #403D65;
+}
+
 
 footer{
   position:fixed;
   bottom:0;
   width:100%;
   margin-left:-35px;
-  margin-top: 100px;
+  margin-top: 200px;
   height: 105px;
   background-color: #403D65;
 
@@ -143,7 +331,7 @@ footer{
   margin-top: 10px;
   margin-right: 35px;
   float: left;;
-  font-family: "Railway",sans-serif;
+  font-family: "Raleway",sans-serif;
   font-weight: 800;
   font-size: 12px;
   color: #B1AEDE;
@@ -159,7 +347,7 @@ footer{
   float: right;
 }
 .social:hover{
-  opacity: .25;
+  opacity: .75;
 }
 .footer-bottom{
   height: 35px;
