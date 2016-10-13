@@ -29,6 +29,7 @@ header{
   height: 37px;
   width: auto;
 }
+
 .navigation-bar > a {
     display: inline-block;
     vertical-align: top;
@@ -153,6 +154,11 @@ body {
   left: -70px;
   border: 20px solid #ffffff;
   border-radius: 50%;
+  animation:3s rotateRight infinite linear;
+}
+@keyframes rotateRight{
+    0%{ transform:rotate(0deg); transform-origin:50% 50%; }
+    100%{ transform:rotate(360deg); }
 }
 .jebediah > h1{
   font-family: "Raleway",sans-serif;
@@ -195,6 +201,11 @@ body {
   right: -70px;
   border: 20px solid #ffffff;
   border-radius: 50%;
+  animation:3s rotateLeft infinite linear;
+}
+@keyframes rotateLeft{
+    0%{ transform:rotate(360deg); transform-origin:50% 50%; }
+    100%{ transform:rotate(0deg); }
 }
 .jezebelle > h1{
   font-family: "Raleway",sans-serif;
@@ -202,11 +213,11 @@ body {
   font-size: 20px;
   margin-bottom: 10px;
 }
-.jezebelle #name{
+.jezebelle #name2{
   color: #5C5C5C;
   display: inline;
 }
-.jezebelle #title{
+.jezebelle #title2{
   color: #FF8ED8;
   display: inline;
 }
@@ -359,11 +370,3 @@ footer{
   color: #B1AEDE;
   text-align: center;
 }
-
-
-
-
-
-
-
-//nothing
